@@ -1,0 +1,185 @@
+@media (min-width: 0px) and (max-width: 320px) {
+    
+    .iu-login{
+        padding             : 10px 2% 10px 2%;
+        margin              : 0px 0px 0px 0px; 
+    }
+    
+    .gallery-esquerda {
+        width               : 100% !important; 
+        float               : left;
+        column-count        : 3;
+        padding             : 0px 0px 0px 0px;
+        margin              : 0px 0px 0px 0px;
+    }
+
+    .gallery-banner .thumbnail-v0 {
+        padding: 2% 0% 2% 2%;
+        margin: 0% 0% 2% 0%;
+    }
+
+    .gallery-banner .thumbnail-v0 .cards-0 {
+        border-radius: 6px;
+    }
+
+}
+  
+@media (min-width: 321px) and (max-width: 467px) {
+    
+    .iu-login{
+        padding             : 10px 2% 10px 2%;
+        margin              : 0px 0px 0px 0px; 
+    }
+
+    .gallery-esquerda {
+        width               : 100% !important; 
+        float               : left;
+        column-count        : 3;
+        padding             : 0px 0px 0px 0px;
+        margin              : 0px 0px 0px 0px;
+    }
+
+    .gallery-banner .thumbnail-v0 .cards-0 {
+        border-radius: 6px;
+    }
+    
+    .text-footer {
+        letter-spacing: 0.5px;    
+        font-weight: 300;
+        line-height: 10px;
+        font-size: 60%;
+    }
+    
+}
+
+@media (min-width: 468px) and (max-width: 591px) {
+    
+    .gallery-esquerda {
+        width               : 100% !important; 
+        float               : left;
+        column-count        : 3;
+        padding             : 0px 0px 0px 0px;
+        margin              : 0px 0px 0px 0px;
+    }
+
+    .gallery-banner .thumbnail-v0 .cards-0 {
+        border-radius: 6px;
+    }
+    
+    .text-footer {
+        letter-spacing: 0.5px;    
+        font-weight: 300;
+        line-height: 10px;
+        font-size: 60%;
+    }
+    
+}    
+
+@media (min-width: 592px) and (max-width: 655px) {
+    
+    .gallery-esquerda {
+        width               : 100% !important; 
+        float               : left;
+        column-count        : 3;
+        padding             : 0px 0px 0px 0px;
+        margin              : 0px 0px 0px 0px;
+    }
+
+    .gallery-banner .thumbnail-v0 .cards-0 {
+        border-radius: 6px;
+    }
+    
+    .text-footer {
+        letter-spacing: 0.5px;    
+        font-weight: 300;
+        line-height: 10px;
+        font-size: 60%;
+    }
+    
+}  
+    
+@media (min-width: 656px) and (max-width: 751px) {
+    
+    .gallery-esquerda {
+        width               : 100% !important; 
+        float               : left;
+        column-count        : 4;
+        padding             : 0px 0px 0px 0px;
+        margin              : 0px 0px 0px 0px;
+    }
+
+    .gallery-banner .thumbnail-v0 .cards-0 {
+        border-radius: 6px;
+    }
+    
+    .text-footer {
+        letter-spacing: 0.5px;    
+        font-weight: 300;
+        line-height: 10px;
+        font-size: 60%;
+    }
+    
+} 
+    
+@media (min-width: 752px) and (max-width: 969px) {
+    
+    .gallery-esquerda {
+        width               : 100% !important; 
+        float               : left;
+        column-count        : 4;
+        padding             : 0px 0px 0px 0px;
+        margin              : 0px 0px 0px 0px;
+    }
+
+    .gallery-banner .thumbnail-v0 .cards-0 {
+        border-radius: 6px;
+    }
+    
+    #sombra:hover{
+        width: 100%;
+        padding: 0.5px;
+        background-color: #999;
+        -webkit-box-shadow: 10px 10px 57px -5px rgba(0,0,0,0.75);
+         -moz-box-shadow: 10px 10px 57px -5px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 57px -5px rgba(0,0,0,0.75);
+        border-radius: 10px;
+    }
+}
+    
+@media (min-width: 970px) and (max-width: 1366px) {
+    
+    .gallery-esquerda {
+        width               : 100% !important; 
+        float               : left;
+        column-count        : 5;
+        padding             : 0px 0px 0px 0px;
+        margin              : 0px 0px 0px 0px;
+    }
+
+    .gallery-banner .thumbnail-v0 .cards-0 {
+        border-radius: 6px;
+    }
+    
+    #sombra:hover{
+        width: 100%;
+        padding: 0.5px;
+        background-color: #999;
+        -webkit-box-shadow: 10px 10px 57px -5px rgba(0,0,0,0.75);
+         -moz-box-shadow: 10px 10px 57px -5px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 57px -5px rgba(0,0,0,0.75);
+        border-radius: 10px;
+    }
+
+}
+
+
+@media (min-width: 1367px) and (max-width: 1919px){
+    
+    
+}
+
+@media (min-width: 1920px) {
+    
+
+    
+}

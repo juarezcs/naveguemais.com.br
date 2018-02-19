@@ -1,0 +1,130 @@
+html, body
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background-color: #fff;
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 14px;
+	line-height: 22px;
+	color: #666;
+	position: relative;
+	-webkit-text-size-adjust: none;
+}
+body *
+{
+	text-shadow: none;
+}
+h1, h2, h3, h4, h5, h6
+{
+	line-height: 1;
+	font-weight: bold;
+	margin: 20px 0 10px 0;
+}
+h1, h2, h3
+{
+	font-size: 18px;
+}
+h4, h5, h6
+{
+	font-size: 16px;
+}
+p
+{
+	margin: 0 0 10px 0;
+}
+a, a:link, a:active, a:visited, a:hover
+{
+	color: inherit;
+	text-decoration: underline;
+    outline: none;
+}
+
+nav:not(.mm-menu)
+{
+	display: none;
+}
+
+#page
+{
+	padding-bottom: 100px;
+}
+.content
+{
+	text-align: center;
+	padding: 150px 50px 50px 50px;
+}
+
+
+a.link-naveguemais:link {
+	text-decoration: none;
+}
+
+a.link-naveguemais:visited {
+	text-decoration: none;
+    color: #fff;
+}
+
+a.link-naveguemais:hover {
+	text-decoration: none;
+    color: #fff;
+}
+
+a.link-naveguemais:active {
+	text-decoration: none;
+    color: #fff;
+}
+
+/*------------------------------------------
+    UTILIDADES PADRÃO
+--------------------------------------------*/
+
+.centro {
+    padding : 0px 0px 0px 0px;
+    margin  : 0 auto;
+}
+.oculto {
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.esconde {
+    display: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.borda {
+    border: 0.5px solid #6f6f6f;
+}
+
+.borda-top {
+    border-top: 0.5px solid #6f6f6f;
+}
+
+.section-padding {
+    padding             : 8% 0px 0% 0px;
+}
+
+.icones-form {
+    font-size: 15px;
+}
+
+
+
+/*------------------------------------------
+   BOTÃO PERFIL USUÁRIO
+--------------------------------------------*/
+.botao-perfil {
+    float           : left;
+    width           : 70px;
+    height          : 70px;
+    padding         : 0px 0px 0px 0px; 
+    margin          : 8px 8px 8px 0px;
+    border-radius   : 30px; 
+}

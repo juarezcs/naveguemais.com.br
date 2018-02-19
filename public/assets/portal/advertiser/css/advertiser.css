@@ -1,0 +1,328 @@
+/* UTILIDADES PADRÃO
+-------------------------------------------------- */
+.pointer {cursor: pointer;}
+
+.titulo {
+    font-size       : 35px;
+    font-weight     : 500;
+    color           : #4b4b4b;
+}
+
+.titulo-centro {
+    text-align: center;
+}
+
+.icons-grande{
+    font-size       : 80px;
+    padding         : 0px 0px 0px 0px;
+}
+
+.icons-medio{
+    font-size       : 50px;
+    padding         : 0px 0px 0px 0px;
+}
+
+.centro {
+    padding : 0px 0px 0px 0px;
+    margin  : 0 auto;
+}
+.oculto {
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.esconde {
+    display: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.section-padding {
+    padding             : 8% 0px 0% 0px;
+}
+
+.icones-form {
+    font-size: 15px;
+}
+
+/* BORDAS
+--------------------------------------------*/
+.borda {
+    border: 0.5px solid #6f6f6f;
+}
+
+.borda-top {
+    border-top: 0.5px solid #6f6f6f;
+}
+
+.borda-branca-media {
+    border: 1px solid #fff;
+}
+
+/* CORES
+--------------------------------------------*/
+.laranja-grunpfi {color: rgb(255, 102, 0);}
+.dark-grey-grunpfi {color: #4b4b4b;}
+.branco-grunpfi {color:#fff;}
+.color-white {color: #fff;}
+.color-red {color: red;}
+.color-blue {color:#1f8fff;}
+.color-yellow {color:#fff61e;}
+
+/* BARRA LOGIN ANUNCIOS
+-------------------------------------------------- */
+
+.bla-head-fundo {
+    height             : 100%;
+    background         : #006dcc;
+    padding            : 0px 0px 0px 0px;
+    margin             : 0px 0px 0px 0px;
+}
+
+.bla-ajuste-barra {
+    padding            : 0px 0px 0px 0px;
+    margin             : 0px 0px 0px 0px;
+}
+
+.bla-titulo {
+    color: #fff;
+    padding: 3px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; 
+    font-size: 15px;
+}
+
+.bla-msg-erro{
+    color: #fff;
+    padding: 2px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; 
+    font-size: 12px;
+}
+
+.bla-link {
+    color: #fff;
+    padding: 3px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+}
+
+.bla-conteudo {
+    padding: 10px 2px 0px 2px;
+    margin: 0px 0px 0px 0px;
+    border: 0px solid #fff;
+    text-align: center;
+}
+
+.bla-btn {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-fundo{
+    background-color: #666;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 546px;
+  background-color: #fff;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 4rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+/*------------------------------------------
+   FORMULÁRIO LOGIN
+--------------------------------------------*/
+
+.mh-head-second {
+    height             : 100%;
+    background         : #006dcc;
+    font-family        : Arial, Helvetica, Verdana;
+	font-size          : 18px;
+	line-height        : 22px;    
+}
+
+.mh-head-align {
+    padding: 0.7% 3% 0px 0px;
+}
+
+.input-align {
+    padding: 0.3% 1% 0px 0px;
+}
+
+.link-cadastrar-form-login {
+    margin: 4% auto;
+}
+
+.bootstrap-iso .texto-campo { 
+    font-size           : 12px !important;
+    line-height         : 1.42857143 !important;
+    letter-spacing      : 1px;  
+    font-family         : Montserrat, sans-serif;
+    color               : #fff;
+}
+
+.bootstrap-iso .alin-input-checkbox { 
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.titulo-h6-form-login {
+    margin: 3% 0px 0px auto;
+}
+
+
+
+/*------------------------------------------
+   FORMULÁRIO CONTATO
+--------------------------------------------*/
+
+.panel-heading {
+    background         : #006dcc;
+    color              : #ffffff;
+    font-family        : Arial, Helvetica, Verdana;
+	font-size          : 18px;
+	line-height        : 22px;    
+}
+
+.panel-heading-feedback {
+    padding                 : 10px 15px;
+    border-bottom           : 1px solid transparent;
+    border-top-right-radius : 3px;
+    border-top-left-radius  : 3px;
+    background              : rgb(250, 106, 106);
+    color                   : #ffffff;
+}
+
+.texto-contato {
+    color              : #4b4b4b;
+    font-family        : Arial, Helvetica, Verdana;
+	font-size          : 42px;
+	line-height        : 22px;
+    
+}
+
+/*------------------------------------------
+    FORMULÁRIOS - PADRÃO
+--------------------------------------------*/
+
+.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{
+    font-family         : Arial, Helvetica, sans-serif; 
+    color               : black
+}
+
+.bootstrap-iso form button, .bootstrap-iso form button:hover{
+    color               : #ffffff !important;
+} 
+
+.bootstrap-iso .form-control { 
+    font-size           : 12px !important;
+    line-height         : 1.42857143 !important;
+    letter-spacing      : 1px;  
+    font-family         : Montserrat, sans-serif;
+    color               : #4b4b4b;
+}
+
+.bootstrap-iso .form-control:focus { 
+    border              : 0.5px solid rgb(74, 74, 74) !important;
+    -webkit-box-shadow  : inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(74, 74, 74, 0.6); 
+    box-shadow          : inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(74, 74, 74, 0.6);
+}
+
+.bootstrap-iso form .input-group-addon {
+    color               : #4b4b4b; 
+    background-color    : #eeeeee; 
+}
+
+.bootstrap-iso form option:hover{
+    color: #4b4b4b; 
+    background-color: #801010; 
+}
+
+.bootstrap-iso h6{
+    color: #ffffff; 
+}
+
+/*------------------------------------------
+   BOTÕES - PADRÃO
+--------------------------------------------*/
+.btn-padrao {
+    width               : 100%; 
+    margin              : 0 auto;  
+    font-size           : 12px !important;
+    line-height         : 1.42857143 !important;
+    letter-spacing      : 4px;
+    border-radius       : 3;
+    font-family         : Montserrat, sans-serif;
+    background          : #4b4b4b;
+    border              : 0.5px solid #c3c3c3 !important;
+    color               : #ffffff;
+    text-transform      : uppercase;
+    letter-spacing      : 1.5px;
+    -webkit-transition  : all ease 0.4s ;
+    -moz-transition     : all ease 0.4s ;
+    -ms-transition      : all ease 0.4s ;
+    -o-transition       : all ease 0.4s ;
+}
+
+.btn-padrao:hover {
+    font-size           : 12px !important;
+    color               : #ffffff !important;
+    background          : rgba(75, 75, 75, 0.80) !important;
+    border              : 0.5px solid #4b4b4b !important;
+}
+
+

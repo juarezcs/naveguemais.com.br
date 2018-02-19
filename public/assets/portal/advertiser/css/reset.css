@@ -1,0 +1,28 @@
+/* BARRA LOGIN ANUNCIOS
+-------------------------------------------------- */
+
+.bra-head-fundo {
+    height             : 100%;
+    background         : #006dcc;
+    padding            : 0px 0px 0px 0px;
+    margin             : 0px 0px 30px 0px;
+}
+
+.bra-ajuste-barra {
+    padding            : 0px 0px 0px 0px;
+    margin             : 0px 0px 0px 0px;
+}
+
+.bra-titulo {
+    color: #fff;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; 
+    font-size: 15px;
+}
+
+.bra-conteudo {
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    border: 0px solid #fff;
+    text-align: center;
+}

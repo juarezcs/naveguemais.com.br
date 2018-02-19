@@ -1,0 +1,43 @@
+/* BARRA HOME ANUNCIOS
+-------------------------------------------------- */
+
+.bha-head-fundo {
+    height             : 50px;
+    background         : #006dcc;
+    padding            : 0px 0px 0px 0px;
+    margin             : 0px 0px 0px 0px;
+}
+
+.bha-ajuste-barra {
+    padding            : 0px 0px 0px 0px;
+    margin             : 0px 0px 0px 0px;
+}
+
+.bha-titulo {
+    color: #fff;
+    padding: 2px 0px 0px 5px;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+.bha-link {
+    color: #fff;
+    padding: 2px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.bha-conteudo {
+    padding: 10px 2px 0px 2px;
+    margin: 0px 0px 0px 0px;
+    border: 0px solid #fff;
+    text-align: center;
+}
+
+.bha-btn {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+#map {
+    height: 100%;
+}

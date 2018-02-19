@@ -1,0 +1,106 @@
+/*Mobile */
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+    
+    /*------------------------------------------
+       MENSAGEM TOPO
+    --------------------------------------------*/
+    
+    .mt-titulo-topo {
+        font-size           : 28px;        
+    }
+
+    /* Thin out the marketing headings */
+    .mt-featurette-heading {
+        font-size           : 25px;
+    }
+    
+    /*------------------------------------------
+       DIVISÃO
+    --------------------------------------------*/
+
+    .featurette-divider {
+        margin              : 40px 0px 40px 0px; /* Space out the Bootstrap <hr> more */
+    }
+    
+    /*------------------------------------------
+       FORMULÁRIO LOGIN
+    --------------------------------------------*/
+    
+    .mh-head-second {
+        height              : 115px;   
+    }
+
+    .mh-head-align {
+        padding: 4% 5% 0px 0px;
+    }
+    
+    .titulo-h6-form-login {
+        margin: 0px auto 2% auto;
+    }
+    
+    .link-cadastrar-form-login {
+        margin: 2% auto;
+    }    
+    
+}
+
+/* Landscape Mobile */
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+    
+     /*------------------------------------------
+       MENSAGEM TOPO
+    --------------------------------------------*/
+    
+    .mt-titulo-topo {
+        font-size           : 30px;        
+    }
+
+    /* Thin out the marketing headings */
+    .mt-featurette-heading {
+        font-size           : 25px;
+    }
+    
+    /*------------------------------------------
+       DIVISÃO
+    --------------------------------------------*/
+
+    .featurette-divider {
+        margin              : 40px 0px 40px 0px; /* Space out the Bootstrap <hr> more */
+    }
+    
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width : 768px) and (max-width : 991px) {
+    
+    /*------------------------------------------
+       MENSAGEM TOPO
+    --------------------------------------------*/
+    
+    .mt-titulo-topo {
+        font-size           : 25px;        
+    }
+
+    /* Thin out the marketing headings */
+    .mt-featurette-heading {
+        font-size           : 20px;
+    }
+     
+    
+}
+
+@media (min-width: 992px)and (max-width: 1024px){
+    
+    
+}
+
+@media (min-width: 1367px) and (max-width: 1919px){
+    
+   
+}
+
+@media (min-width: 1920px) {
+    
+    
+    
+}

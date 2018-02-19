@@ -1,0 +1,363 @@
+/* UTILIDADES PADRÃO
+-------------------------------------------------- */
+.pointer {cursor: pointer;}
+
+.titulo {
+    font-size       : 35px;
+    font-weight     : 500;
+    color           : #4b4b4b;
+}
+
+.titulo-centro {
+    text-align: center;
+}
+
+.icons-grande {
+    font-size       : 80px;
+    padding         : 0px 0px 0px 0px;
+}
+
+.icons-medio {
+    font-size       : 50px;
+    padding         : 0px 0px 0px 0px;
+}
+
+.centro {
+    padding : 0px 0px 0px 0px;
+    margin  : 0 auto;
+}
+.oculto {
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.esconde {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.section-padding {
+    padding             : 8% 0px 0% 0px;
+}
+
+.section-padding-bottom {
+    padding             : 0px 0px 8% 0px;
+}
+
+.icones-form {
+    font-size: 15px;
+}
+
+.font-bold{
+    font-weight: 600;
+}
+
+.inline-form {
+    display: inline;
+}
+
+/* BORDAS
+--------------------------------------------*/
+.borda {
+    border: 0.5px solid #6f6f6f;
+}
+
+.borda-top {
+    border-top: 0.5px solid #6f6f6f;
+}
+
+.borda-bottom {
+    border-top: 0.5px solid #6f6f6f;
+}
+
+
+.borda-left {
+    border-left: 0.5px solid #d4d4d4;
+}
+
+.borda-branca-media {
+    border: 1px solid #fff;
+}
+
+/* CORES
+--------------------------------------------*/
+.laranja-grunpfi {color: rgb(255, 102, 0);}
+.dark-grey-grunpfi {color: #4b4b4b;}
+.branco-grunpfi {color:#fff;}
+.color-white {color: #fff;}
+.color-red {color: red;}
+.color-blue {color:#1f8fff;}
+.color-yellow {color:#fff61e;}
+
+
+/*------------------------------------------
+   BACKGROUND
+--------------------------------------------*/
+.cinza-claro {
+    background          : darkgray;
+}
+
+
+/*------------------------------------------
+   MENSAGEM TOPO
+--------------------------------------------*/
+
+.mt-titulo-topo {
+    font-size           : 35px;
+    font-weight         : 500;
+    color               : #4b4b4b;
+}
+
+.mt-featurette-heading {
+    font-weight         : 300;
+    line-height         : 1;
+    letter-spacing      : -.05rem;
+}
+
+.cadastro-msg-erro {
+    color: #ff0000;
+    padding: 2px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; 
+    font-size: 12px;
+}
+
+/*------------------------------------------
+   DIVISÃO
+--------------------------------------------*/
+
+.featurette-divider {
+    margin              : 4rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+
+/*------------------------------------------
+   FORMULÁRIO LOGIN
+--------------------------------------------*/
+
+.mh-head-second {
+    height             : 50px;
+    background         : #006dcc;
+    font-family        : Arial, Helvetica, Verdana;
+	font-size          : 18px;
+	line-height        : 22px;    
+}
+
+.mh-head-align {
+    padding: 0.7% 3% 0px 0px;
+}
+
+.input-align {
+    padding: 0.3% 1% 0px 0px;
+}
+
+.link-cadastrar-form-login {
+    margin: 4% auto;
+}
+
+/*------------------------------------------
+   FORMULÁRIO LOGIN
+--------------------------------------------*/
+.iu-row {
+    padding             : 0px 0px 0px 0px;
+    margin              : 15px 0px 0px 0px;
+}
+
+.iu-login{
+    padding             : 10px 20% 10px 20%;
+    margin              : 0px 0px 0px 0px; 
+}
+
+.iu-input {
+    width               : 100%;
+    padding             : 4px 4px 4px 4px;
+    margin              : 0px 0px 0px 0px; 
+    border              : 0.5px solid #6f6f6f;
+    font-size           : 12px; 
+}
+
+.iu-label{
+    padding             : 0px 0px 0px 0px;
+    margin              : 2px 0px 0px 0px; 
+    font-size           : 12px; 
+}
+
+.iu-btn-cadastro {
+    width               : 100%;
+}
+
+.iu-btn-identidiicar {
+    padding             : 0px 0px 0px 0px;
+    margin              : 0px 5px 0px 0px;
+}
+
+.iu-msg-erro{
+    color: #fff;
+    padding: 2px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; 
+    font-size: 12px;
+}
+
+.iu-row a {
+    color               : rgb(255, 102, 0);
+    text-decoration     :underline;
+}
+
+.iu-row p {
+    margin              : 0px 0px 0px 10px;
+}
+
+/*------------------------------------------
+   BOTÕES - PADRÃO
+--------------------------------------------*/
+.btn-padrao {
+    width               : 100%; 
+    margin              : 0 auto;  
+    font-size           : 12px !important;
+    line-height         : 1.42857143 !important;
+    letter-spacing      : 4px;
+    border-radius       : 3;
+    font-family         : Montserrat, sans-serif;
+    background          : #4b4b4b;
+    border              : 0.5px solid #c3c3c3 !important;
+    color               : #ffffff;
+    text-transform      : uppercase;
+    letter-spacing      : 1.5px;
+    -webkit-transition  : all ease 0.4s ;
+    -moz-transition     : all ease 0.4s ;
+    -ms-transition      : all ease 0.4s ;
+    -o-transition       : all ease 0.4s ;
+}
+
+.btn-padrao:hover {
+    font-size           : 12px !important;
+    color               : #ffffff !important;
+    background          : rgba(75, 75, 75, 0.80) !important;
+    border              : 0.5px solid #4b4b4b !important;
+}
+
+/*------------------------------------------
+   QUADRO INFORMAÇÕES DE ERROS
+--------------------------------------------*/
+.table {
+    font-size           : 10px !important;
+    font-weight         : normal;
+    line-height         : 1.42857143 !important;
+    letter-spacing      : 1px;  
+    font-family         : Montserrat, sans-serif;
+    color               : #4b4b4b;   
+}
+
+/*------------------------------------------
+   FORMULÁRIO CADASTRO
+--------------------------------------------*/
+
+.padFormCadastro {
+    padding             : 5% 0px 0% 0px;
+}
+
+.legal-texto {
+    font-size           : 12px !important;
+    font-weight         : normal;
+    line-height         : 1.42857143 !important;
+    letter-spacing      : 1px;  
+    font-family         : Montserrat, sans-serif;
+    color               : #4b4b4b;
+    text-align          : justify;
+}
+
+.texto-cep-valid {
+    color              : red;
+    font-size           : 12px !important;
+    font-weight         : normal;
+    line-height         : 1.42857143 !important;
+    letter-spacing      : 1px;  
+    font-family         : Montserrat, sans-serif;
+    text-align          : justify;
+    
+}
+
+.tipoContaTexto {
+    padding             : 0px 0px 0px 15px;
+    margin              : 0px 0px 0px 0px;
+    font-size           : 12px !important;
+    font-weight         : normal;
+    line-height         : 1.42857143 !important;
+    letter-spacing      : 1px;  
+    font-family         : Montserrat, sans-serif;
+    color               : #4b4b4b;                
+}
+
+.feedback-form {
+    display             : none;
+    font-size           : 12px !important;
+    line-height         : 1.42857143 !important;
+    letter-spacing      : 1px;  
+    font-family         : Montserrat, sans-serif;
+    color               : #ff0000;
+}
+
+/*------------------------------------------
+   GALERIA CORPO PAGINA
+--------------------------------------------*/
+.gallery{
+    
+}
+    
+.gallery-esquerda {
+    width               : 100% !important; 
+    float               : left;
+    column-count        : 5;
+    padding             : 0px 0px 0px 0px;
+    margin              : 0px 0px 0px 0px;
+}
+
+/*------------------------------------------
+   GALERIAS ESQUERDA
+--------------------------------------------*/
+
+.gallery-banner{
+    display: inline-block;
+	width: 100%;
+    height: auto;
+	background-color: #FFFFFF;
+	padding: 0% 0% 0% 0%;
+	margin: 0.5% 0.5% 0.5% 0.5%;
+    border: 0% solid #999;
+    text-align: center;
+}
+
+.gallery-banner .thumbnail-v0 {
+	width: 100%;
+    height: 100%;
+	text-align: center;
+	float: left;
+	padding: 5% 5% 5% 5%;
+	margin: 0% 0% 3% 0%;
+    background-color: #ffffff;
+	border-bottom: 0% solid #ffffff;
+	border-radius: 3%;
+}
+
+.gallery-banner .thumbnail-v0 .cards-0 {
+	border-radius: 10px;
+    border: 0% solid #999;
+}
+
+#sombra{
+     width: 100%;
+     padding: 0.5px;
+     background-color: #fff;
+}
+
+#sombra:hover{
+     width: 100%;
+     padding: 0.5px;
+     background-color: #999;
+     -webkit-box-shadow: 10px 10px 57px -5px rgba(0,0,0,0.75);
+     -moz-box-shadow: 10px 10px 57px -5px rgba(0,0,0,0.75);
+     box-shadow: 10px 10px 57px -5px rgba(0,0,0,0.75);
+}
