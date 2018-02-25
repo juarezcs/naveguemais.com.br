@@ -24,8 +24,8 @@ class CreateAdvertisersTable extends Migration
             $table->string('mobile_phone', 50)->nullable();
             $table->string('zip_code', 20);
             $table->string('address', 150);
-            $table->string('number', 20);
-            $table->string('city', 50);
+            $table->string('number', 15);
+            $table->string('city', 100);
             $table->string('neighborhood', 50);
             $table->integer('state_id')->unsigned();
             $table->foreign('state_id')->references('id')->on('states')->onDelete('cascade');

@@ -27,6 +27,8 @@ Route::group(['namespace' => 'Portal', 'middleware' => 'guest'], function(){
     Route::get('/guest/s/i1budkki', 'PortalAuth\LoginController@showLoginForm');
     Route::post('/guest/s/i1budkki', 'PortalAuth\LoginController@login');
     
+    Route::get('/anunciantes', function(){ return view('portal.advertiser.index');});
+    
 });
 
 Route::group(['namespace' => 'Portal', 'middleware' => 'auth'], function(){
